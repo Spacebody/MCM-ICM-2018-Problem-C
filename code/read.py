@@ -16,7 +16,7 @@ msn = []
 description = []
 unit = []
 for i in range(len(msncodes["Description"])):
-    if not re.search("price", msncodes["Description"][i]) and not re.search("expanditures", msncodes["Description"][i])\
+    if not re.search("price", msncodes["Description"][i]) and not re.search("expenditures", msncodes["Description"][i])\
             and not re.search("production", msncodes["Description"][i]):
         msn.append(msncodes["MSN"][i])
         description.append(msncodes["Description"][i])
