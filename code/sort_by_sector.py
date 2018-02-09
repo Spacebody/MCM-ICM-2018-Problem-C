@@ -1,4 +1,4 @@
-from read import *
+from read import comp_data, re, OrderedDict, pd
 
 #industrial
 ind_msn = []
