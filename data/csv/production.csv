@@ -1,0 +1,18 @@
+MSN,Description,Unit
+CLPRB,Coal production.,Billion Btu
+CLPRK,Factor for converting coal production from physical units to Btu.,Million Btu per short ton
+CLPRP,Coal production.,Thousand short tons
+COPRK,Factor for converting crude oil production from physical units to Btu.,Million Btu per barrel
+EMFDB,Biomass inputs (feedstock) for the production of fuel ethanol.,Billion Btu
+EMLCB,Energy losses and co-products from the production of fuel ethanol.,Billion Btu
+ENPRP,"Fuel ethanol production, including denaturant.",Thousand barrels
+HYTCB,Hydroelectricity total production.,Billion Btu
+HYTCP,Hydroelectricity total production.,Million kilowatthours
+NGMPB,Natural gas marketed production.,Billion Btu
+NGMPK,Conversion factor for natural gas marketed production.,Thousand Btu per cubic feet
+NGMPP,Natural gas marketed production.,Million cubic feet
+PAPRB,Crude oil production (including lease condensate).,Billion Btu
+PAPRP,Crude oil production (including lease condensate).,Thousand barrels
+REPRB,Renewable energy production.,Billion Btu
+ROPRB,"Renewable energy production, other than fuel ethanol.",Billion Btu
+TEPRB,Total energy production.,Billion Btu

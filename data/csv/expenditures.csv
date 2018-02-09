@@ -1,0 +1,121 @@
+MSN,Description,Unit
+ARICV,Asphalt and road oil expenditures in the industrial sector.,Million dollars
+ARTCV,Asphalt and road oil total expenditures.,Million dollars
+ARTXV,Asphalt and road oil total end-use expenditures.,Million dollars
+AVACV,Aviation gasoline expenditures in the transportation sector.,Million dollars
+AVTCV,Aviation gasoline total expenditures.,Million dollars
+AVTXV,Aviation gasoline total end-use expenditures.,Million dollars
+CCEXV,"Coal coke exports expenditures, United States.",Million dollars
+CCIMV,"Coal coke imports expenditures, United States.",Million dollars
+CCNIV,"Coal coke net imports expenditures, United States.",Million dollars
+CLACV,Coal expenditures in the transportation sector.,Million dollars
+CLCCV,Coal expenditures in the commercial sector.,Million dollars
+CLEIV,Coal expenditures in the electric power sector.,Million dollars
+CLICV,Coal expenditures in the industrial sector.,Million dollars
+CLKCV,Coal expenditures at coke plants.,Million dollars
+CLOCV,Coal expenditures in the industrial sector other than coke plants.,Million dollars
+CLRCV,Coal expenditures in the residential sector.,Million dollars
+CLTCV,Coal total expenditures.,Million dollars
+CLTXV,Coal total end-use expenditures.,Million dollars
+CLXCV,Coal expenditures for all sectors excluding refinery fuel.,Million dollars
+DFACV,Distillate fuel oil expenditures in the transportation sector.,Million dollars
+DFCCV,Distillate fuel oil expenditures in the commercial sector.,Million dollars
+DFEIV,Distillate fuel oil expenditures in the electric power sector.,Million dollars
+DFICV,Distillate fuel oil expenditures in the industrial sector.,Million dollars
+DFRCV,Distillate fuel oil expenditures in the residential sector.,Million dollars
+DFTCV,Distillate fuel oil total expenditures.,Million dollars
+DFTXV,Distillate fuel oil total end-use expenditures.,Million dollars
+DKEIV,Distillate fuel oil and kerosene-type jet fuel expenditures in the electric power sector.,Million dollars
+ELEXV,Electricity exports expenditures.,Million dollars
+ELIMV,Electricity imports expenditures.,Million dollars
+EMACV,"Fuel ethanol, excluding denaturant, expenditures in the transportation sector.",Million dollars
+EMCCV,"Fuel ethanol, excluding denaturant, expenditures in the commercial sector.",Million dollars
+EMICV,"Fuel ethanol, excluding denaturant, expenditures in the industrial sector.",Million dollars
+EMTCV,"Fuel ethanol, excluding denaturant, total expenditures.",Million dollars
+ESACV,Electricity expenditures in the transportation sector.,Million dollars
+ESCCV,Electricity expenditures in the commercial sector.,Million dollars
+ESICV,Electricity expenditures in the industrial sector.,Million dollars
+ESRCV,Electricity expenditures in the residential sector.,Million dollars
+ESTCV,Electricity total expenditures.,Million dollars
+ESTXV,Electricity total end-use expenditures.,Million dollars
+FNICV,"Petrochemical feedstocks, naphtha less than 401 F, expenditures in the industrial sector.",Million dollars
+FOICV,"Petrochemical feedstocks, other oils equal to or greater than 401 degrees F, expenditures in the industrial sector.",Million dollars
+FSICV,"Petrochemical feedstocks, still gas, expenditures in the industrial sector.",Million dollars
+JFACV,Jet fuel expenditures in the transportation sector.,Million dollars
+JFTCV,Jet fuel total expenditures.,Million dollars
+JFTXV,Jet fuel total end-use expenditures.,Million dollars
+KSCCV,Kerosene expenditures in the commercial sector.,Million dollars
+KSICV,Kerosene expenditures in the industrial sector.,Million dollars
+KSRCV,Kerosene expenditures in the residential sector.,Million dollars
+KSTCV,Kerosene total expenditures.,Million dollars
+KSTXV,Kerosene total end-use expenditures.,Million dollars
+LGACV,LPG expenditures in the transportation sector.,Million dollars
+LGCCV,LPG expenditures in the commercial sector.,Million dollars
+LGICV,LPG expenditures in the industrial sector.,Million dollars
+LGRCV,LPG expenditures in the residential sector.,Million dollars
+LGTCV,LPG total expenditures.,Million dollars
+LGTXV,LPG total end-use expenditures.,Million dollars
+LUACV,Lubricants expenditures in the transportation sector.,Million dollars
+LUICV,Lubricants expenditures in the industrial sector.,Million dollars
+LUTXV,Lubricants total end-use expenditures.,Million dollars
+MGACV,Motor gasoline expenditures in the transportation sector.,Million dollars
+MGCCV,Motor gasoline expenditures in the commercial sector.,Million dollars
+MGICV,Motor gasoline expenditures in the industrial sector.,Million dollars
+MGTCV,Motor gasoline total expenditures.,Million dollars
+MGTXV,Motor gasoline total end-use expenditures.,Million dollars
+MSICV,Miscellaneous petroleum products expenditures in the industrial sector.,Million dollars
+NGACV,Natural gas expenditures in the transportation sector.,Million dollars
+NGCCV,Natural gas expenditures in the commercial sector (including supplemental gaseous fuels).,Million dollars
+NGEIV,Natural gas expenditures in the electric power sector (including supplemental gaseous fuels).,Million dollars
+NGICV,Natural gas expenditures in the industrial sector (including supplemental gaseous fuels).,Million dollars
+NGRCV,Natural gas expenditures in the residential sector (including supplemental gaseous fuels).,Million dollars
+NGTCV,Natural gas total expenditures (including supplemental gaseous fuels).,Million dollars
+NGTXV,Natural gas total end-use expenditures (including supplemental gaseous fuels).,Million dollars
+NUEGV,Nuclear fuel expenditures in the electric power sector.,Million dollars
+NUETV,Nuclear fuel total expenditures.,Million dollars
+P1ICV,"Asphalt and road oil, kerosene, lubricants, and ""other petroleum products"" expenditures in the  industrial sector.",Million dollars
+P1TCV,"Asphalt and road oil, aviation gasoline, kerosene, lubricants, and ""other petroleum products"" total expenditures.",Million dollars
+P1TXV,"Asphalt and road oil, aviation gasoline, kerosene, lubricants, and ""other petroleum products"" total end-use expenditures.",Million dollars
+PAACV,All petroleum products total expenditures in the transportation sector.,Million dollars
+PACCV,All petroleum products total expenditures in the commercial sector.,Million dollars
+PAEIV,All petroleum products total expenditures in the electric power sector.,Million dollars
+PAICV,All petroleum products total expenditures in the industrial sector.,Million dollars
+PARCV,All petroleum products total expenditures in the residential sector.,Million dollars
+PATCV,All petroleum products total expenditures.,Million dollars
+PATXV,All petroleum products total end-use expenditures.,Million dollars
+PCCCV,Petroleum coke expenditures in the commercial sector.,Million dollars
+PCEIV,Petroleum coke expenditures in the electric power sector.,Million dollars
+PCICV,Petroleum coke expenditures in the industrial sector.,Million dollars
+PCTCV,Petroleum coke total expenditures.,Million dollars
+PEACV,Primary energy total expenditures in the transportation sector.,Million dollars
+PECCV,Primary energy total expenditures in the commercial sector.,Million dollars
+PEEIV,Primary energy total expenditures in the electric power sector.,Million dollars
+PEICV,Primary energy total expenditures in the industrial sector.,Million dollars
+PERCV,Primary energy total expenditures in the residential sector.,Million dollars
+PETCV,Primary energy total expenditures.,Million dollars
+PETXV,Primary energy total end-use expenditures.,Million dollars
+POICV,Other petroleum products total expenditures in the industrial sector.,Million dollars
+POTCV,Other petroleum products total expenditures.,Million dollars
+POTXV,Other petroleum products total end-use expenditures.,Million dollars
+RFACV,Residual fuel oil expenditures in the transportation sector.,Million dollars
+RFCCV,Residual fuel oil expenditures in the commercial sector.,Million dollars
+RFEIV,Residual fuel oil expenditures in the electric power sector.,Million dollars
+RFICV,Residual fuel oil expenditures in the industrial sector.,Million dollars
+RFTCV,Residual fuel oil total expenditures.,Million dollars
+RFTXV,Residual fuel oil total end-use expenditures.,Million dollars
+SNICV,Special naphthas expenditures in the industrial sector.,Million dollars
+TEACV,Total energy expenditures in the transportation sector.,Million dollars
+TECCV,Total energy expenditures in the commercial sector.,Million dollars
+TEGDS,Energy expenditures as share of current-dollar GDP.,Percent
+TEICV,Total energy expenditures in the industrial sector.,Million dollars
+TERCV,Total energy total expenditures in the residential sector.,Million dollars
+TETCV,Total energy expenditures.,Million dollars
+TETPV,Total energy expenditures per capita.,Dollars
+TETXV,Total end-use energy expenditures.,Million dollars
+WDRCV,Wood expenditures in the residential sector. ,Million dollars
+WWCCV,Wood and waste expenditures in the commercial sector.,Million dollars
+WWEIV,Wood and waste expenditures in the electric power sector.,Million dollars
+WWICV,Wood and waste expenditures in the industrial sector.,Million dollars
+WWTCV,Wood and waste total expenditures.,Million dollars
+WWTXV,Wood and waste total end-use expenditures.,Million dollars
+WXICV,Waxes expenditures in the industrial sector.,Million dollars

@@ -1,0 +1,117 @@
+MSN,Description,Unit
+ARICD,Asphalt and road oil price in the industrial sector.,Dollars per million Btu
+ARTCD,"Asphalt and road oil average price, all sectors.",Dollars per million Btu
+ARTXD,"Asphalt and road oil average price, all end-use sectors.",Dollars per million Btu
+AVACD,Aviation gasoline price in the transportation sector.,Dollars per million Btu
+AVTCD,"Aviation gasoline average price, all sectors.",Dollars per million Btu
+AVTXD,"Aviation gasoline average price, all end-use sectors.",Dollars per million Btu
+CCEXD,"Coal coke exports average price, United States.",Dollars per million Btu
+CCIMD,"Coal coke imports average price, United States.",Dollars per million Btu
+CLACD,Coal price in the transportation sector.,Dollars per million Btu
+CLCCD,Coal price in the commercial sector.,Dollars per million Btu
+CLEID,Coal price in the electric power sector.,Dollars per million Btu
+CLICD,Coal price in the industrial sector.,Million dollars
+CLKCD,Coal price at coke plants.,Dollars per million Btu
+CLOCD,Coal price in the industrial sector other than coke plants.,Dollars per million Btu
+CLRCD,Coal price in the residential sector.,Dollars per million Btu
+CLTCD,"Coal average price, all sectors.",Dollars per million Btu
+CLTXD,"Coal average price, all end-use sectors.",Dollars per million Btu
+CLXCD,Coal average price for all sectors excluding refinery fuel.,Dollars per million Btu
+DFACD,Distillate fuel oil price in the transportation sector.,Dollars per million Btu
+DFCCD,Distillate fuel oil price in the commercial sector.,Dollars per million Btu
+DFEID,Distillate fuel oil price in the electric power sector.,Dollars per million Btu
+DFICD,Distillate fuel oil price in the industrial sector.,Dollars per million Btu
+DFRCD,Distillate fuel oil price in the residential sector.,Dollars per million Btu
+DFTCD,"Distillate fuel oil average price, all sectors.",Dollars per million Btu
+DFTXD,"Distillate fuel oil average price, all end-use sectors.",Dollars per million Btu
+DKEID,Distillate fuel oil and kerosene-type jet fuel average price in the electric power sector.,Dollars per million Btu
+ELEXD,Electricity exports average price.,Dollars per million Btu
+ELIMD,Electricity imports average price.,Dollars per million Btu
+ESACD,Electricity price in the transportation sector.,Dollars per million Btu
+ESCCD,Electricity price in the commercial sector.,Dollars per million Btu
+ESICD,Electricity price in the industrial sector.,Dollars per million Btu
+ESRCD,Electricity price in the residential sector.,Dollars per million Btu
+ESTCD,"Electricity average price, all sectors.",Dollars per million Btu
+ESTXD,"Electricity average price, all end-use sectors.",Dollars per million Btu
+FNICD,"Petrochemical feedstocks, naphtha less than 401 F, price in the industrial sector.",Dollars per million Btu
+FOICD,"Petrochemical feedstocks, other oils equal to or greater than 401 degrees F, price in the industrial sector.",Dollars per million Btu
+FSICD,"Petrochemical feedstocks, still gas, price in the industrial sector.",Dollars per million Btu
+JFACD,Jet fuel price in the transportation sector.,Dollars per million Btu
+JFTCD,"Jet fuel average price, all sectors.",Dollars per million Btu
+JFTXD,"Jet fuel average price, all end-use sectors.",Dollars per million Btu
+KSCCD,Kerosene price in the commercial sector.,Dollars per million Btu
+KSICD,Kerosene price in the industrial sector.,Dollars per million Btu
+KSRCD,Kerosene price in the residential sector.,Dollars per million Btu
+KSTCD,"Kerosene average price, all sectors.",Dollars per million Btu
+KSTXD,"Kerosene average price, all end-use sectors.",Dollars per million Btu
+LGACD,LPG price in the transportation sector.,Dollars per million Btu
+LGCCD,LPG price in the commercial sector.,Dollars per million Btu
+LGICD,LPG price in the industrial sector.,Dollars per million Btu
+LGRCD,LPG price in the residential sector.,Dollars per million Btu
+LGTCD,"LPG average price, all sectors.",Dollars per million Btu
+LGTXD,"LPG average price, all end-use sectors.",Dollars per million Btu
+LUACD,Lubricants price in the transportation sector.,Dollars per million Btu
+LUICD,Lubricants price in the industrial sector.,Dollars per million Btu
+LUTCD,"Lubricants average price, all sectors.",Dollars per million Btu
+LUTCV,"Lubricants average price, all sectors.",Million dollars
+LUTXD,"Lubricants average price, all end-use sectors.",Dollars per million Btu
+MGACD,Motor gasoline price in the transportation sector.,Dollars per million Btu
+MGCCD,Motor gasoline price in the commercial sector.,Dollars per million Btu
+MGICD,Motor gasoline price in the industrial sector.,Dollars per million Btu
+MGTCD,"Motor gasoline average price, all sectors.",Dollars per million Btu
+MGTXD,"Motor gasoline average price, all end-use sectors.",Dollars per million Btu
+MSICD,Miscellaneous petroleum products price in the industrial sector.,Dollars per million Btu
+NGACD,Natural gas price in the transportation sector.,Dollars per million Btu
+NGCCD,Natural gas price in the commercial sector (including supplemental gaseous fuels).,Dollars per million Btu
+NGEID,Natural gas price in the electric power sector (including supplemental gaseous fuels).,Dollars per million Btu
+NGICD,Natural gas price in the industrial sector (including supplemental gaseous fuels).,Dollars per million Btu
+NGRCD,Natural gas price in the residential sector (including supplemental gaseous fuels).,Dollars per million Btu
+NGTCD,"Natural gas average price, all sectors (including supplemental gaseous fuels).",Dollars per million Btu
+NGTXD,"Natural gas average price, all end-use sectors (including supplemental gaseous fuels).",Dollars per million Btu
+NUEGD,Nuclear fuel price in the electric power sector.,Dollars per million Btu
+NUETD,"Nuclear fuel average price, all sectors.",Dollars per million Btu
+P1ICD,"Asphalt and road oil, kerosene, lubricants, and ""other petroleum products"" average price in the  industrial sector.",Dollars per million Btu
+P1TCD,"Asphalt and road oil, aviation gasoline, kerosene, lubricants, and ""other petroleum products"" average price, all sectors.",Dollars per million Btu
+P1TXD,"Asphalt and road oil, aviation gasoline, kerosene, lubricants, and ""other petroleum products"" average price, all end-use sectors.",Dollars per million Btu
+PAACD,All petroleum products average price in the transportation sector.,Dollars per million Btu
+PACCD,All petroleum products average price in the commercial sector.,Dollars per million Btu
+PAEID,All petroleum products average price in the electric power sector.,Dollars per million Btu
+PAICD,All petroleum products average price in the industrial sector.,Dollars per million Btu
+PARCD,All petroleum products average price in the residential sector.,Dollars per million Btu
+PATCD,"All petroleum products average price, all sectors.",Dollars per million Btu
+PATXD,"All petroleum products average price, all end-use sectors.",Dollars per million Btu
+PCCCD,Petroleum coke price in the commercial sector.,Dollars per million Btu
+PCEID,Petroleum coke price in the electric power sector.,Dollars per million Btu
+PCICD,Petroleum coke price in the industrial sector.,Dollars per million Btu
+PCISB,Petroleum coke price in the industrial sector excluding refinery fuel.,Billion Btu
+PCTCD,"Petroleum coke average price, all sectors.",Dollars per million Btu
+PEACD,Primary energy average price in the transportation sector.,Dollars per million Btu
+PECCD,Primary energy average price in the commercial sector.,Dollars per million Btu
+PEEID,Primary energy average price in the electric power sector.,Dollars per million Btu
+PEICD,Primary energy average price in the industrial sector.,Dollars per million Btu
+PERCD,Primary energy average price in the residential sector.,Dollars per million Btu
+PETCD,"Primary energy average price, all sectors.",Dollars per million Btu
+PETXD,"Primary energy average price, all end-use sectors.",Dollars per million Btu
+POICD,Other petroleum products average price in the industrial sector.,Dollars per million Btu
+POTCD,"Other petroleum products average price, all sectors.",Dollars per million Btu
+POTXD,"Other petroleum products average price, all end-use sectors.",Dollars per million Btu
+RFACD,Residual fuel oil price in the transportation sector.,Dollars per million Btu
+RFCCD,Residual fuel oil price in the commercial sector.,Dollars per million Btu
+RFEID,Residual fuel oil price in the electric power sector.,Dollars per million Btu
+RFICD,Residual fuel oil price in the industrial sector.,Dollars per million Btu
+RFTCD,"Residual fuel oil average price, all sectors.",Dollars per million Btu
+RFTXD,"Residual fuel oil average price, all end-use sectors.",Dollars per million Btu
+SNICD,Special naphthas price in the industrial sector.,Dollars per million Btu
+TEACD,Total energy average price in the transportation sector.,Dollars per million Btu
+TECCD,Total energy average price in the commercial sector.,Dollars per million Btu
+TEICD,Total energy average price in the industrial sector.,Dollars per million Btu
+TERCD,Total energy average price in the residential sector.,Dollars per million Btu
+TETCD,Total energy average price.,Dollars per million Btu
+TETXD,Total end-use energy average price.,Dollars per million Btu
+WDRCD,Wood price in the residential sector.,Dollars per million Btu
+WWCCD,Wood and waste price in the commercial sector.,Dollars per million Btu
+WWEID,Wood and waste price in the electric power sector.,Dollars per million Btu
+WWICD,Wood and waste price in the industrial sector.,Dollars per million Btu
+WWTCD,"Wood and waste average price, all sectors.",Dollars per million Btu
+WWTXD,"Wood and waste average price, all end-use sectors.",Dollars per million Btu
+WXICD,Waxes price in the industrial sector.,Dollars per million Btu

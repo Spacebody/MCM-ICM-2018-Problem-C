@@ -29,23 +29,20 @@ msn = []
 description = []
 unit = []
 for i in range(len(msncodes["Description"])):
-    if not re.search("price", msncodes["Description"][i]) and not re.search("expenditures", msncodes["Description"][i])\
-            and not re.search("production", msncodes["Description"][i]):
+    if not re.search("price", msncodes["Description"][i]) and not re.search("expenditures", msncodes["Description"][i]) and \
+        not re.search("production", msncodes["Description"][i]) and not re.search("imported", msncodes["Description"][i]) and \
+        not re.search("imports", msncodes["Description"][i]) and not re.search("exported", msncodes["Description"][i]) and \
+        not re.search("exported", msncodes["Description"][i]):
         msn.append(msncodes["MSN"][i])
         description.append(msncodes["Description"][i])
         unit.append(msncodes["Unit"][i])
-data_frame = OrderedDict()
-order_dict = OrderedDict()
-order_dict["MSN"] = msn
-order_dict["Description"] = description
-order_dict["Unit"] = unit
-data_frame = pd.DataFrame(order_dict)
+comp_data = OrderedDict()
+item_dict = OrderedDict()
+item_dict["MSN"] = msn
+item_dict["Description"] = description
+item_dict["Unit"] = unit
+comp_data = pd.DataFrame(item_dict)
 
 # data_frame.to_csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM2018\\data\\test.csv",index=False,index_label=False,sep=',')
-data_frame.to_csv("data/csv/test.csv", index=False, index_label=False, sep=',')
-print(data_frame)
-
-
-
-
-
+comp_data.to_csv("data/csv/test.csv", index=False, index_label=False, sep=',')
+print(comp_data)

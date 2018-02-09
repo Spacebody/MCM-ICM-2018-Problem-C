@@ -14,12 +14,6 @@ AVTCP,Aviation gasoline total consumption.,Thousand barrels
 AVTXB,Aviation gasoline total end-use consumption.,Billion Btu
 AVTXP,Aviation gasoline total end-use consumption.,Thousand barrels
 BMTCB,Biomass total consumption,Billion Btu
-CCEXB,Coal coke exported from the United States. ,Billion Btu
-CCEXP,Coal coke exported from the United States. ,Thousand short tons
-CCIMB,Coal coke imported into the United States.,Billion Btu
-CCIMP,Coal coke imported into the United States.,Thousand short tons
-CCNIB,Coal coke net imports into the United States.,Billion Btu
-CCNIP,Coal coke net imports into the United States.,Thousand short tons
 CLACB,Coal consumed by the transportation sector.,Billion Btu
 CLACK,Factor for converting coal consumed by the transportation sector from physical units to Btu.,Million Btu per short ton
 CLACP,Coal consumed by the transportation sector.,Thousand short tons
@@ -63,13 +57,7 @@ DFTXB,Distillate fuel oil total end-use consumption.,Billion Btu
 DFTXP,Distillate fuel oil total end-use consumption.,Thousand barrels
 DKEIB,Distillate fuel oil and kerosene-type jet fuel consumed by the electric power sector.,Billion Btu
 DKEIP,Distillate fuel oil and kerosene-type jet fuel consumed by the electric power sector.,Thousand barrels
-ELEXB,Electricity exported from the United States.,Billion Btu
-ELEXP,Electricity exported from the United States.,Million kilowatthours
-ELIMB,Electricity imported into the United States.,Billion Btu
-ELIMP,Electricity imported into the United States.,Million kilowatthours
 ELISB,Net interstate sales of electricity and associated losses (negative and positive values).,Billion Btu
-ELNIB,Net imports of electricity into the United States.,Billion Btu
-ELNIP,Net imports of electricity into the United States.,Million kilowatthours
 EMACB,"Fuel ethanol, excluding denaturant, consumed by the transportation sector.   ",Billion Btu
 EMCCB,"Fuel ethanol, excluding denaturant, consumed by the commercial sector ",Billion Btu
 EMICB,"Fuel ethanol, excluding denaturant, consumed by the industrial sector. ",Billion Btu
