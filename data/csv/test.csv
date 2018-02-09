@@ -15,21 +15,16 @@ AVTXB,Aviation gasoline total end-use consumption.,Billion Btu
 AVTXP,Aviation gasoline total end-use consumption.,Thousand barrels
 BMTCB,Biomass total consumption,Billion Btu
 CLACB,Coal consumed by the transportation sector.,Billion Btu
-CLACK,Factor for converting coal consumed by the transportation sector from physical units to Btu.,Million Btu per short ton
 CLACP,Coal consumed by the transportation sector.,Thousand short tons
 CLCCB,Coal consumed by the commercial sector.,Billion Btu
 CLCCP,Coal consumed by the commercial sector.,Thousand short tons
 CLEIB,Coal consumed by the electric power sector.,Billion Btu
-CLEIK,Factor for converting coal consumed by the electric power sector from physical units to Btu.,Million Btu per short ton
 CLEIP,Coal consumed by the electric power sector.,Thousand short tons
-CLHCK,Factor for converting coal consumed by the residential and commercial sectors from physical units to Btu.,Million Btu per short ton
 CLICB,Coal consumed by the industrial sector.,Billion Btu
 CLICP,Coal consumed by the industrial sector.,Thousand short tons
 CLKCB,Coal consumed at coke plants (coking coal).,Billion Btu
-CLKCK,Factor for converting coal carbonized at coke plants from physical units to Btu.,Million Btu per short ton
 CLKCP,Coal consumed at coke plants (coking coal).,Thousand short tons
 CLOCB,Coal consumed by industrial users other than coke plants.,Billion Btu
-CLOCK,Factor for converting coal consumed by industrial users other than coke plants from physical units to Btu.,Million Btu per short ton
 CLOCP,Coal consumed by industrial users other than coke plants.,Thousand short tons
 CLOSB,Coal consumed by the industrial sector excluding refinery fuel.,Billion Btu
 CLRCB,Coal consumed by the residential sector.,Billion Btu
@@ -66,7 +61,6 @@ EMTCP,"Fuel ethanol, excluding denaturant, total consumption.",Thousand barrels
 ENACP,"Fuel ethanol, including denaturant, consumed by the transportation sector.",Thousand barrels
 ENCCP,"Fuel ethanol, including denaturant, consumed by the commercial sector.",Thousand barrels
 ENICP,"Fuel ethanol, including denaturant, consumed by the industrial sector.",Thousand barrels
-ENTCK,Factor for converting fuel ethanol consumption from physical units to Btu.,Million Btu per barrel
 ENTCP,"Fuel ethanol, including denaturant, total consumption.",Thousand barrels
 ESACB,"Electricity consumed by (i.e., sold to) the transportation sector.",Billion Btu
 ESACP,"Electricity consumed by (i.e., sold to) the transportation sector.",Million kilowatthours
@@ -144,7 +138,6 @@ LGRCB,LPG consumed by the residential sector.,Billion Btu
 LGRCP,LPG consumed by the residential sector.,Thousand barrels
 LGRFB,LPG consumed as refinery fuel.,Billion Btu
 LGTCB,LPG total consumption.,Billion Btu
-LGTCK,"Factor for converting LPG physical units to Btu, United States only.",Million Btu per barrel
 LGTCP,LPG total consumption.,Thousand barrels
 LGTXB,LPG total end-use consumption.,Billion Btu
 LGTXP,LPG total end-use consumption.,Thousand barrels
@@ -171,7 +164,6 @@ MGCCP,Motor gasoline consumed by the commercial sector.,Thousand barrels
 MGICB,Motor gasoline consumed by the industrial sector.,Billion Btu
 MGICP,Motor gasoline consumed by the industrial sector.,Thousand barrels
 MGTCB,Motor gasoline total consumption.,Billion Btu
-MGTCK,"Factor converting motor gasoline physical units to Btu, United States only.",Million Btu per barrel
 MGTCP,Motor gasoline total consumption.,Thousand barrels
 MGTXB,Motor gasoline total end-use consumption.,Billion Btu
 MGTXP,Motor gasoline total end-use consumption.,Thousand barrels
@@ -185,7 +177,6 @@ NGACP,Natural gas consumed by the transportation sector.,Million cubic feet
 NGCCB,Natural gas consumed by (delivered to) the commercial sector (including supplemental gaseous fuels).,Billion Btu
 NGCCP,Natural gas consumed by (delivered to) the commercial sector (including supplemental gaseous fuels).,Million cubic feet
 NGEIB,Natural gas consumed by the electric power sector (including supplemental gaseous fuels).,Billion Btu
-NGEIK,Factor for converting natural gas consumed by the electric power sector from physical units to Btu.,Thousand Btu per cubic foot
 NGEIP,Natural gas consumed by the electric power sector (including supplemental gaseous fuels).,Million cubic feet
 NGICB,Natural gas consumed by (delivered to) the industrial sector (including supplemental gaseous fuels).,Billion Btu
 NGICP,Natural gas consumed by (delivered to) the industrial sector (including supplemental gaseous fuels).,Million cubic feet
@@ -198,10 +189,8 @@ NGRCB,Natural gas consumed by (delivered to) the residential sector (including s
 NGRCP,Natural gas consumed by (delivered to) the residential sector (including supplemental gaseous fuels).,Million cubic feet
 NGRFB,Natural gas consumed as refinery fuel (including supplemental gaseous fuels). ,Billion Btu
 NGTCB,Natural gas total consumption (including supplemental gaseous fuels).,Billion Btu
-NGTCK,Factor for converting natural gas total consumption from physical units to Btu.,Thousand Btu per cubic foot
 NGTCP,Natural gas total consumption (including supplemental gaseous fuels).,Million cubic feet
 NGTXB,Natural gas total end-use consumption (including supplemental gaseous fuels).,Billion Btu
-NGTXK,Factor for converting natural gas consumed by all sectors other than electric power from physical units to Btu.,Thousand Btu per cubic foot
 NGTXP,Natural gas total end-use consumption (including supplemental gaseous fuels).,Million cubic feet
 NGVHB,Natural gas consumed as vehicle fuel.,Billion Btu
 NGVHP,Natural gas consumed as vehicle fuel.,Million cubic feet
@@ -214,7 +203,6 @@ NNTCB,Natural gas total consumption (excluding supplemental gaseous fuels).,Bill
 NUEGB,Electricity produced from nuclear power by the electric power sector.,Billion Btu
 NUEGP,Electricity produced from nuclear power by the electric power sector.,Million kilowatthours
 NUETB,Electricity produced from nuclear power.,Billion Btu
-NUETK,"Factor for converting electricity produced from nuclear power from physical units to Btu, United States only.",Thousand Btu per kilowatthour
 NUETP,Electricity produced from nuclear power.,Million kilowatthours
 P1ICB,"Asphalt and road oil, kerosene, lubricants, and ""other petroleum products"" consumed by the industrial sector.",Billion Btu
 P1ICP,"Asphalt and road oil, kerosene, lubricants, and ""other petroleum products"" consumed by the industrial sector.",Thousand barrels
@@ -224,23 +212,16 @@ P1TXB,"Asphalt and road oil, aviation gasoline, kerosene, lubricants, and ""othe
 P1TXP,"Asphalt and road oil, aviation gasoline, kerosene, lubricants, and ""other petroleum products"" total end-use consumption.",Thousand barrels
 P5RFB,"Other petroleum products (SG and PC consumed as process fuel and AB, MB, PP, and UO consumed as intermediate products).",Billion Btu
 PAACB,All petroleum products consumed by the transportation sector.,Billion Btu
-PAACK,"Factor for converting all petroleum products consumed by the transportation sector from physical units to Btu, United States only.",Million Btu per barrel
 PAACP,All petroleum products consumed by the transportation sector.,Thousand barrels
 PACCB,All petroleum products consumed by the commercial sector.,Billion Btu
-PACCK,"Factor for converting all petroleum products consumed by the commercial sector from physical units to Btu, United States only.",Million Btu per barrel
 PACCP,All petroleum products consumed by the commercial sector.,Thousand barrels
 PAEIB,All petroleum products consumed by the electric power sector.,Billion Btu
-PAEIK,"Factor for converting all petroleum products consumed by the electric power sector from physical units to Btu, United States only.",Million Btu per barrel
 PAEIP,All petroleum products consumed by the electric power sector.,Thousand barrels
-PAHCK,"Factor for converting all petroleum products consumed by the residential and commercial sectors from physical units to Btu, United States only.",Million Btu per barrel
 PAICB,All petroleum products consumed by the industrial sector.,Billion Btu
-PAICK,"Factor for converting all petroleum products consumed by the industrial sector from physical units to Btu, United States only.",Million Btu per barrel
 PAICP,All petroleum products consumed by the industrial sector.,Thousand barrels
 PARCB,All petroleum products consumed by the residential sector.,Billion Btu
-PARCK,"Factor for converting all petroleum products consumed by the residential sector from physical units to Btu, United States only.",Million Btu per barrel
 PARCP,All petroleum products consumed by the residential sector.,Thousand barrels
 PATCB,All petroleum products total consumption.,Billion Btu
-PATCK,"Factor for converting all petroleum products total consumption from physical units to Btu, United States only.",Million Btu per barrel
 PATCP,All petroleum products total consumption.,Thousand barrels
 PATXB,All petroleum products total end-use consumption.,Billion Btu
 PATXP,All petroleum products total end-use consumption.,Thousand barrels
