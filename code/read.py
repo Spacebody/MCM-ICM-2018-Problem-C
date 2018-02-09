@@ -32,7 +32,7 @@ for i in range(len(msncodes["Description"])):
     if not re.search("price", msncodes["Description"][i]) and not re.search("expenditures", msncodes["Description"][i]) and \
         not re.search("production", msncodes["Description"][i]) and not re.search("imported", msncodes["Description"][i]) and \
         not re.search("imports", msncodes["Description"][i]) and not re.search("exported", msncodes["Description"][i]) and \
-        not re.search("exported", msncodes["Description"][i]):
+        not re.search("exported", msncodes["Description"][i]) and not re.search("Factor", msncodes["Description"][i]):
         msn.append(msncodes["MSN"][i])
         description.append(msncodes["Description"][i])
         unit.append(msncodes["Unit"][i])
