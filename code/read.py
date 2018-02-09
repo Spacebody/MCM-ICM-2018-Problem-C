@@ -3,6 +3,7 @@
 import pandas as pd 
 import re 
 import numpy as np
+from collections import OrderedDict
 
 seseds = pd.read_csv('C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM2018\\data\\csv\\seseds.csv', skiprows=None, engine='c', low_memory=True)
 msncodes = pd.read_csv('C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM2018\\data\\csv\\msncodes.csv', skiprows=None, engine='c', low_memory=True)
@@ -21,7 +22,12 @@ for i in range(len(msncodes["Description"])):
         msn.append(msncodes["MSN"][i])
         description.append(msncodes["Description"][i])
         unit.append(msncodes["Unit"][i])
-data_frame = pd.DataFrame({"MSN": msn, "Description": description, "Unit": unit})
+data_frame = OrderedDict()
+order_dict = OrderedDict()
+order_dict["MSN"] = msn
+order_dict["Description"] = description
+order_dict["Unit"] = unit
+data_frame = pd.DataFrame(order_dict)
 data_frame.to_csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM2018\\data\\test.csv",index=False,index_label=False,sep=',')
 
 
