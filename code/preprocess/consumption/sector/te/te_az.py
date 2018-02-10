@@ -18,7 +18,7 @@ from scipy import stats, integrate
 te_msncodes = pd.read_csv("data/csv/consumption/sector/te_sector.csv")["MSN"]
 #load state data
 az_data = pd.read_csv("data/csv/consumption/state_data/az_data.csv")
-# print(az_data)
+
 az_msn = []
 az_year = []
 az_value = []

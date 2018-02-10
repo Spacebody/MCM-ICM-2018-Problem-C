@@ -20,7 +20,7 @@ from scipy import stats, integrate
 te_msncodes = pd.read_csv("data/csv/consumption/sector/te_sector.csv")["MSN"]
 #load state data
 tx_data = pd.read_csv("data/csv/consumption/state_data/tx_data.csv")
-# print(tx_data)
+
 tx_msn = []
 tx_year = []
 tx_value = []
