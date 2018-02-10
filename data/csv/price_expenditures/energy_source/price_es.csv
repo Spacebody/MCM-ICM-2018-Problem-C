@@ -1,0 +1,7 @@
+MSN,Description,Unit
+CLTCD,"Coal average price, all sectors.",Dollars per million Btu
+ESTCD,"Electricity average price, all sectors.",Dollars per million Btu
+NGTCD,"Natural gas average price, all sectors (including supplemental gaseous fuels).",Dollars per million Btu
+NUETD,"Nuclear fuel average price, all sectors.",Dollars per million Btu
+PATCD,"All petroleum products average price, all sectors.",Dollars per million Btu
+WWTCD,"Wood and waste average price, all sectors.",Dollars per million Btu
