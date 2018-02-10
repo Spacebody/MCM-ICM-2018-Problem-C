@@ -22,8 +22,12 @@ msn = []
 description = []
 unit = []
 
-for i in range(len(msncodes["Description"])):
-    if re.search("Total", msncodes["Description"][i]) and re.search("sector", msncodes["Description"][i]):
+for i in range(len(msncodes["MSN"])):
+    if re.search("CLTCV", msncodes["MSN"][i]) or \
+        re.search("ESTCV", msncodes["MSN"][i]) or \
+        re.search("NGTCV", msncodes["MSN"][i]) or \
+        re.search("PATCV", msncodes["MSN"][i]) or \
+        re.search("NUETV", msncodes["MSN"][i]):
         msn.append(msncodes["MSN"][i])
         description.append(msncodes["Description"][i])
         unit.append(msncodes["Unit"][i])
@@ -32,5 +36,5 @@ exp_sector["MSN"] = msn
 exp_sector["Description"] = description
 exp_sector["Unit"] = unit
 exp_sector_data = pd.DataFrame(exp_sector)
-exp_sector_data.to_csv("data/csv/price_expenditures/sector/exp.csv",
-                  index=False, index_label=False, sep=',')
+exp_sector_data.to_csv("data/csv/price_expenditures/energy_source/exp_es.csv",
+                       index=False, index_label=False, sep=',')
