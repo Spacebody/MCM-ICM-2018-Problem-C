@@ -15,9 +15,9 @@ from scipy import stats, integrate
 # sns.set_style("whitegrid")
 
 #load sector msncodes
-tn_msncodes = pd.read_csv("data/csv/consumption/sector/tn_sector.csv")["MSN"]
+tn_msncodes = pd.read_csv("data/csv/consumption/sector/tn_sector.csv", engine='c', low_memory=True)["MSN"]
 #load state data
-az_data = pd.read_csv("data/csv/consumption/state_data/az_data.csv")
+az_data = pd.read_csv("data/csv/state_data/az_data.csv", engine='c', low_memory=True)
 
 az_msn = []
 az_year = []
@@ -38,8 +38,7 @@ az_tn["Year"] = az_year
 az_tn["Data"] = az_value
 az_tn_data = pd.DataFrame(az_tn)
 
-az_tn_data.to_csv("data/csv/consumption/sector/az/az_tn_data.csv",
-                  index=False, index_label=False, sep=',')
+az_tn_data.to_csv("data/csv/consumption/sector/az/az_tn_data.csv", index=False, index_label=False, sep=',')
 # print(az_tn_data)
 
 sectors = ["TNACB", "TNCCB", "TNICB", "TNRCB"]

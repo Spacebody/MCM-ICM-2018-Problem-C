@@ -15,9 +15,9 @@ from scipy import stats, integrate
 # sns.set_style("whitegrid")
 
 #load sector msncodes
-tn_msncodes = pd.read_csv("data/csv/consumption/sector/tn_sector.csv")["MSN"]
+tn_msncodes = pd.read_csv("data/csv/consumption/sector/tn_sector.csv", engine='c', low_memory=True)["MSN"]
 #load state data
-ca_data = pd.read_csv("data/csv/consumption/state_data/ca_data.csv")
+ca_data = pd.read_csv("data/csv/state_data/ca_data.csv", engine='c', low_memory=True)
 
 ca_msn = []
 ca_year = []

@@ -16,18 +16,18 @@ from scipy import stats, integrate
 
 #load energy_source msncodes
 msncodes = pd.read_csv(
-    "data/csv/price_expenditures/energy_source/exp_es.csv", engine='c')["MSN"]
+    "data/csv/price_expenditures/energy_source/exp_es.csv", engine='c', low_memory=True)["MSN"]
 #load state data
 az_data = pd.read_csv(
-    "data/csv/consumption/state_data/az_data.csv", engine='c')
+    "data/csv/state_data/az_data.csv", engine='c', low_memory=True)
 ca_data = pd.read_csv(
-    "data/csv/consumption/state_data/ca_data.csv", engine='c')
+    "data/csv/state_data/ca_data.csv", engine='c', low_memory=True)
 nm_data = pd.read_csv(
-    "data/csv/consumption/state_data/nm_data.csv", engine='c')
+    "data/csv/state_data/nm_data.csv", engine='c', low_memory=True)
 tx_data = pd.read_csv(
-    "data/csv/consumption/state_data/tx_data.csv", engine='c')
+    "data/csv/state_data/tx_data.csv", engine='c', low_memory=True)
 
-sources = ["CLTCV", "ESTCV", "NUETV", "NUETV", "PATCV"]
+sources = ["CLTCV", "ESTCV", "NUETV", "NGTCV", "PATCV", "WWTCV"]
 
 # az
 az_msn = []
@@ -68,6 +68,9 @@ az_nuetv["Data"] = []
 az_patcv = OrderedDict()
 az_patcv["Year"] = []
 az_patcv["Data"] = []
+az_wwtcv = OrderedDict()
+az_wwtcv["Year"] = []
+az_wwtcv["Data"] = []
 
 for i in range(len(az_exp_data["MSN"])):
     if az_exp_data["MSN"][i] == "CLTCV":
@@ -85,6 +88,9 @@ for i in range(len(az_exp_data["MSN"])):
     elif az_exp_data["MSN"][i] == "PATCV":
         az_patcv["Year"].append(az_exp_data["Year"][i])
         az_patcv["Data"].append(az_exp_data["Data"][i])
+    elif az_exp_data["MSN"][i] == "WWTCV":
+        az_wwtcv["Year"].append(az_exp_data["Year"][i])
+        az_wwtcv["Data"].append(az_exp_data["Data"][i])
     else:
         pass
 
@@ -103,10 +109,9 @@ az_nuetv_data.to_csv("data/csv/price_expenditures/energy_source/az/expenditures/
 az_patcv_data = pd.DataFrame(az_patcv)
 az_patcv_data.to_csv("data/csv/price_expenditures/energy_source/az/expenditures/patcv.csv",
                      index=False, index_label=False, sep=',')
-# print(cltcv_data)
-# print(estcv_data)
-# print(ngtcv_data)
-# print(nuetv_data)
+az_wwtcv_data = pd.DataFrame(az_wwtcv)
+az_wwtcv_data.to_csv("data/csv/price_expenditures/energy_source/az/expenditures/wwtcv.csv",
+                     index=False, index_label=False, sep=',')
 
 # ca
 ca_msn = []
@@ -147,6 +152,9 @@ ca_nuetv["Data"] = []
 ca_patcv = OrderedDict()
 ca_patcv["Year"] = []
 ca_patcv["Data"] = []
+ca_wwtcv = OrderedDict()
+ca_wwtcv["Year"] = []
+ca_wwtcv["Data"] = []
 
 for i in range(len(ca_exp_data["MSN"])):
     if ca_exp_data["MSN"][i] == "CLTCV":
@@ -164,6 +172,9 @@ for i in range(len(ca_exp_data["MSN"])):
     elif ca_exp_data["MSN"][i] == "PATCV":
         ca_patcv["Year"].append(ca_exp_data["Year"][i])
         ca_patcv["Data"].append(ca_exp_data["Data"][i])
+    elif ca_exp_data["MSN"][i] == "WWTCV":
+        ca_wwtcv["Year"].append(ca_exp_data["Year"][i])
+        ca_wwtcv["Data"].append(ca_exp_data["Data"][i])
     else:
         pass
 
@@ -181,6 +192,9 @@ ca_nuetv_data.to_csv("data/csv/price_expenditures/energy_source/ca/expenditures/
                      index=False, index_label=False, sep=',')
 ca_patcv_data = pd.DataFrame(ca_patcv)
 ca_patcv_data.to_csv("data/csv/price_expenditures/energy_source/ca/expenditures/patcv.csv",
+                     index=False, index_label=False, sep=',')
+ca_wwtcv_data = pd.DataFrame(ca_wwtcv)
+ca_wwtcv_data.to_csv("data/csv/price_expenditures/energy_source/ca/expenditures/wwtcv.csv",
                      index=False, index_label=False, sep=',')
 
 # nm
@@ -222,6 +236,9 @@ nm_nuetv["Data"] = []
 nm_patcv = OrderedDict()
 nm_patcv["Year"] = []
 nm_patcv["Data"] = []
+nm_wwtcv = OrderedDict()
+nm_wwtcv["Year"] = []
+nm_wwtcv["Data"] = []
 
 for i in range(len(nm_exp_data["MSN"])):
     if nm_exp_data["MSN"][i] == "CLTCV":
@@ -239,6 +256,9 @@ for i in range(len(nm_exp_data["MSN"])):
     elif nm_exp_data["MSN"][i] == "PATCV":
         nm_patcv["Year"].append(nm_exp_data["Year"][i])
         nm_patcv["Data"].append(nm_exp_data["Data"][i])
+    elif nm_exp_data["MSN"][i] == "WWTCV":
+        nm_wwtcv["Year"].append(nm_exp_data["Year"][i])
+        nm_wwtcv["Data"].append(nm_exp_data["Data"][i])
     else:
         pass
 
@@ -256,6 +276,9 @@ nm_nuetv_data.to_csv("data/csv/price_expenditures/energy_source/nm/expenditures/
                      index=False, index_label=False, sep=',')
 nm_patcv_data = pd.DataFrame(nm_patcv)
 nm_patcv_data.to_csv("data/csv/price_expenditures/energy_source/nm/expenditures/patcv.csv",
+                     index=False, index_label=False, sep=',')
+nm_wwtcv_data = pd.DataFrame(nm_wwtcv)
+nm_wwtcv_data.to_csv("data/csv/price_expenditures/energy_source/nm/expenditures/wwtcv.csv",
                      index=False, index_label=False, sep=',')
 
 
@@ -298,6 +321,9 @@ tx_nuetv["Data"] = []
 tx_patcv = OrderedDict()
 tx_patcv["Year"] = []
 tx_patcv["Data"] = []
+tx_wwtcv = OrderedDict()
+tx_wwtcv["Year"] = []
+tx_wwtcv["Data"] = []
 
 for i in range(len(tx_exp_data["MSN"])):
     if tx_exp_data["MSN"][i] == "CLTCV":
@@ -315,6 +341,9 @@ for i in range(len(tx_exp_data["MSN"])):
     elif tx_exp_data["MSN"][i] == "PATCV":
         tx_patcv["Year"].append(tx_exp_data["Year"][i])
         tx_patcv["Data"].append(tx_exp_data["Data"][i])
+    elif tx_exp_data["MSN"][i] == "WWTCV":
+        tx_wwtcv["Year"].append(tx_exp_data["Year"][i])
+        tx_wwtcv["Data"].append(tx_exp_data["Data"][i])
     else:
         pass
 
@@ -333,4 +362,6 @@ tx_nuetv_data.to_csv("data/csv/price_expenditures/energy_source/tx/expenditures/
 tx_patcv_data = pd.DataFrame(tx_patcv)
 tx_patcv_data.to_csv("data/csv/price_expenditures/energy_source/tx/expenditures/patcv.csv",
                      index=False, index_label=False, sep=',')
-
+tx_wwtcv_data = pd.DataFrame(tx_wwtcv)
+tx_wwtcv_data.to_csv("data/csv/price_expenditures/energy_source/tx/expenditures/wwtcv.csv",
+                     index=False, index_label=False, sep=',')

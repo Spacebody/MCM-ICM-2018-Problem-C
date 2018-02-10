@@ -27,7 +27,8 @@ for i in range(len(msncodes["MSN"])):
         re.search("ESTCV", msncodes["MSN"][i]) or \
         re.search("NGTCV", msncodes["MSN"][i]) or \
         re.search("PATCV", msncodes["MSN"][i]) or \
-        re.search("NUETV", msncodes["MSN"][i]):
+        re.search("NUETV", msncodes["MSN"][i]) or \
+        re.search("WWTCV", msncodes["MSN"][i]):
         msn.append(msncodes["MSN"][i])
         description.append(msncodes["Description"][i])
         unit.append(msncodes["Unit"][i])

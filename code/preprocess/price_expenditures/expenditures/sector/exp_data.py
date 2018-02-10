@@ -16,12 +16,12 @@ from scipy import stats, integrate
 
 #load sector msncodes
 msncodes = pd.read_csv(
-    "data/csv/price_expenditures/sector/exp.csv", engine='c')["MSN"]
+    "data/csv/price_expenditures/sector/exp.csv", engine='c', low_memory=True)["MSN"]
 #load state data
-az_data = pd.read_csv("data/csv/consumption/state_data/az_data.csv", engine='c')
-ca_data = pd.read_csv("data/csv/consumption/state_data/ca_data.csv", engine='c')
-nm_data = pd.read_csv("data/csv/consumption/state_data/nm_data.csv", engine='c')
-tx_data = pd.read_csv("data/csv/consumption/state_data/tx_data.csv", engine='c')
+az_data = pd.read_csv("data/csv/state_data/az_data.csv", engine='c', low_memory=True)
+ca_data = pd.read_csv("data/csv/state_data/ca_data.csv", engine='c', low_memory=True)
+nm_data = pd.read_csv("data/csv/state_data/nm_data.csv", engine='c', low_memory=True)
+tx_data = pd.read_csv("data/csv/state_data/tx_data.csv", engine='c', low_memory=True)
 
 sectors = ["TEACV", "TECCV", "TEICV", "TERCV"]
 

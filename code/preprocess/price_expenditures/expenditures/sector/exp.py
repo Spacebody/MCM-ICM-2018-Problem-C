@@ -15,7 +15,7 @@ from scipy import stats, integrate
 # sns.set_style("whitegrid")
 
 #load sector msncodes
-msncodes = pd.read_csv("data/csv/price_expenditures/expenditures.csv", engine='c')
+msncodes = pd.read_csv("data/csv/price_expenditures/expenditures.csv", engine='c', low_memory=True)
 
 exp_sector = OrderedDict()
 msn = []
