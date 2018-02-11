@@ -68,7 +68,7 @@ fig = plt.figure(figsize=(7, 5))
 ind = np.arange(4)    # the x locations for the groups
 width = 0.3
 
-p1 = plt.bar(ind, (az_reprb/az_tpopp, ca_reprb/az_tpopp, nm_reprb/nm_tpopp, tx_reprb/tx_tpopp), width)
+p1 = plt.bar(ind, (az_reprb/az_tpopp, ca_reprb/ca_tpopp, nm_reprb/nm_tpopp, tx_reprb/tx_tpopp), width)
 
 plt.title("Renewable Energy Production Per Captita of Four States")
 plt.xlabel("States")
