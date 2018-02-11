@@ -16,7 +16,7 @@ from collections import OrderedDict
 #     msncodes_path = os.path.join(parent_path, 'MCM-ICM-2018-Problem-C/data/csv/msncodes.csv')
 # else:
 #     pass
-seseds = pd.read_csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\data\\csv\\seseds.csv", skiprows=None, engine='c', low_memory=True)
+seseds = pd.read_csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\data\csv\\original\\seseds.csv", skiprows=None, engine='c', low_memory=True)
 az_msn = []
 az_state_code = []
 az_year = []
@@ -64,22 +64,22 @@ item_dict["StateCode"] = az_state_code
 item_dict["Year"] = az_year
 item_dict["Data"] = az_data
 az_comp_data = pd.DataFrame(item_dict)
-az_comp_data.to_csv("C:/Users/THINKPAD/PycharmProjects/MCM-ICM-2018-Problem-C/data/csv/az_data.csv", index=False, index_label=False, sep=',')
+az_comp_data.to_csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\az_data.csv", index=False, index_label=False, sep=',')
 item_dict["MSN"] = ca_msn
 item_dict["StateCode"] = ca_state_code
 item_dict["Year"] = ca_year
 item_dict["Data"] = ca_data
 ca_comp_data = pd.DataFrame(item_dict)
-ca_comp_data.to_csv("C:/Users/THINKPAD/PycharmProjects/MCM-ICM-2018-Problem-C/data/csv/ca_data.csv", index=False, index_label=False, sep=',')
+ca_comp_data.to_csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\ca_data.csv", index=False, index_label=False, sep=',')
 item_dict["MSN"] = nm_msn
 item_dict["StateCode"] = nm_state_code
 item_dict["Year"] = nm_year
 item_dict["Data"] = nm_data
 nm_comp_data = pd.DataFrame(item_dict)
-nm_comp_data.to_csv("C:/Users/THINKPAD/PycharmProjects/MCM-ICM-2018-Problem-C/data/csv/nm_data.csv", index=False, index_label=False, sep=',')
+nm_comp_data.to_csv("C:/Users/THINKPAD/PycharmProjects/MCM-ICM-2018-Problem-C/code/PCR/nm_data.csv", index=False, index_label=False, sep=',')
 item_dict["MSN"] = tx_msn
 item_dict["StateCode"] = tx_state_code
 item_dict["Year"] = tx_year
 item_dict["Data"] = tx_data
 tx_comp_data = pd.DataFrame(item_dict)
-tx_comp_data.to_csv("C:/Users/THINKPAD/PycharmProjects/MCM-ICM-2018-Problem-C/data/csv/tx_data.csv", index=False, index_label=False, sep=',')
+tx_comp_data.to_csv("C:/Users/THINKPAD/PycharmProjects/MCM-ICM-2018-Problem-C/code/PCR/tx_data.csv", index=False, index_label=False, sep=',')
