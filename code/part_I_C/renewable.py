@@ -62,6 +62,16 @@ for i in range(len(az["MSN"])):
             az_msn.append(az["MSN"][i])
             az_year.append(az["Year"][i])
             az_data.append(az["Data"][i])
+        elif az["MSN"][i] == "TETCB":
+            az_tetcb = az["Data"][i]
+            az_msn.append(az["MSN"][i])
+            az_year.append(az["Year"][i])
+            az_data.append(az["Data"][i])
+        elif az["MSN"][i] == "TEPRB":
+            az_teprb = az["Data"][i]
+            az_msn.append(az["MSN"][i])
+            az_year.append(az["Year"][i])
+            az_data.append(az["Data"][i])
         else:
             pass
     else:
@@ -97,6 +107,16 @@ for i in range(len(ca["MSN"])):
             ca_data.append(ca["Data"][i])
         elif ca["MSN"][i] == "TPOPP":
             ca_tpopp = ca["Data"][i]
+            ca_msn.append(ca["MSN"][i])
+            ca_year.append(ca["Year"][i])
+            ca_data.append(ca["Data"][i])
+        elif ca["MSN"][i] == "TETCB":
+            ca_tetcb = ca["Data"][i]
+            ca_msn.append(ca["MSN"][i])
+            ca_year.append(ca["Year"][i])
+            ca_data.append(ca["Data"][i])
+        elif ca["MSN"][i] == "TEPRB":
+            ca_teprb = ca["Data"][i]
             ca_msn.append(ca["MSN"][i])
             ca_year.append(ca["Year"][i])
             ca_data.append(ca["Data"][i])
@@ -137,6 +157,16 @@ for i in range(len(nm["MSN"])):
             nm_msn.append(nm["MSN"][i])
             nm_year.append(nm["Year"][i])
             nm_data.append(nm["Data"][i])
+        elif nm["MSN"][i] == "TETCB":
+            nm_tetcb = nm["Data"][i]
+            nm_msn.append(nm["MSN"][i])
+            nm_year.append(nm["Year"][i])
+            nm_data.append(nm["Data"][i])
+        elif az["MSN"][i] == "TEPRB":
+            nm_teprb = nm["Data"][i]
+            nm_msn.append(nm["MSN"][i])
+            nm_year.append(nm["Year"][i])
+            nm_data.append(nm["Data"][i])
         else:
             pass
     else:
@@ -171,6 +201,16 @@ for i in range(len(tx["MSN"])):
             tx_data.append(tx["Data"][i])
         elif tx["MSN"][i] == "TPOPP":
             tx_tpopp = tx["Data"][i]
+            tx_msn.append(tx["MSN"][i])
+            tx_year.append(tx["Year"][i])
+            tx_data.append(tx["Data"][i])
+        elif tx["MSN"][i] == "TETCB":
+            tx_tetcb = tx["Data"][i]
+            tx_msn.append(tx["MSN"][i])
+            tx_year.append(tx["Year"][i])
+            tx_data.append(tx["Data"][i])
+        elif tx["MSN"][i] == "TEPRB":
+            tx_teprb = tx["Data"][i]
             tx_msn.append(tx["MSN"][i])
             tx_year.append(tx["Year"][i])
             tx_data.append(tx["Data"][i])
