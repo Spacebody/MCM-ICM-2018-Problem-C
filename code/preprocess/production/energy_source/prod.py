@@ -36,9 +36,9 @@ az_ngmpb["Data"] = []
 az_reprb = OrderedDict()
 az_reprb["Year"] = []
 az_reprb["Data"] = []
-# az_teprb = OrderedDict()
-# az_teprb["Year"] = []
-# az_teprb["Data"] = []
+az_teprb = OrderedDict()
+az_teprb["Year"] = []
+az_teprb["Data"] = []
 
 for i in range(len(az_data["MSN"])):
     if az_data["MSN"][i] == "CLPRB":
@@ -56,9 +56,9 @@ for i in range(len(az_data["MSN"])):
     elif az_data["MSN"][i] == "REPRB":
         az_reprb["Year"].append(az_data["Year"][i])
         az_reprb["Data"].append(az_data["Data"][i])
-    # elif az_data["MSN"][i] == "TEPRB":
-    #     az_teprb["Year"].append(az_data["Year"][i])
-    #     az_teprb["Data"].append(az_data["Data"][i])
+    elif az_data["MSN"][i] == "TEPRB":
+        az_teprb["Year"].append(az_data["Year"][i])
+        az_teprb["Data"].append(az_data["Data"][i])
     else:
         pass
 
@@ -80,9 +80,9 @@ ca_ngmpb["Data"] = []
 ca_reprb = OrderedDict()
 ca_reprb["Year"] = []
 ca_reprb["Data"] = []
-# ca_teprb = OrderedDict()
-# ca_teprb["Year"] = []
-# ca_teprb["Data"] = []
+ca_teprb = OrderedDict()
+ca_teprb["Year"] = []
+ca_teprb["Data"] = []
 
 for i in range(len(ca_data["MSN"])):
     if ca_data["MSN"][i] == "CLPRB":
@@ -100,9 +100,9 @@ for i in range(len(ca_data["MSN"])):
     elif ca_data["MSN"][i] == "REPRB":
         ca_reprb["Year"].append(ca_data["Year"][i])
         ca_reprb["Data"].append(ca_data["Data"][i])
-    # elif ca_data["MSN"][i] == "TEPRB":
-    #     ca_teprb["Year"].append(ca_data["Year"][i])
-    #     ca_teprb["Data"].append(ca_data["Data"][i])
+    elif ca_data["MSN"][i] == "TEPRB":
+        ca_teprb["Year"].append(ca_data["Year"][i])
+        ca_teprb["Data"].append(ca_data["Data"][i])
     else:
         pass
 
@@ -122,9 +122,9 @@ nm_ngmpb["Data"] = []
 nm_reprb = OrderedDict()
 nm_reprb["Year"] = []
 nm_reprb["Data"] = []
-# nm_teprb = OrderedDict()
-# nm_teprb["Year"] = []
-# nm_teprb["Data"] = []
+nm_teprb = OrderedDict()
+nm_teprb["Year"] = []
+nm_teprb["Data"] = []
 
 for i in range(len(nm_data["MSN"])):
     if nm_data["MSN"][i] == "CLPRB":
@@ -142,9 +142,9 @@ for i in range(len(nm_data["MSN"])):
     elif nm_data["MSN"][i] == "REPRB":
         nm_reprb["Year"].append(nm_data["Year"][i])
         nm_reprb["Data"].append(nm_data["Data"][i])
-    # elif nm_data["MSN"][i] == "TEPRB":
-    #     nm_teprb["Year"].append(nm_data["Year"][i])
-    #     nm_teprb["Data"].append(nm_data["Data"][i])
+    elif nm_data["MSN"][i] == "TEPRB":
+        nm_teprb["Year"].append(nm_data["Year"][i])
+        nm_teprb["Data"].append(nm_data["Data"][i])
     else:
         pass
 
@@ -164,9 +164,9 @@ tx_ngmpb["Data"] = []
 tx_reprb = OrderedDict()
 tx_reprb["Year"] = []
 tx_reprb["Data"] = []
-# tx_teprb = OrderedDict()
-# tx_teprb["Year"] = []
-# tx_teprb["Data"] = []
+tx_teprb = OrderedDict()
+tx_teprb["Year"] = []
+tx_teprb["Data"] = []
 
 for i in range(len(tx_data["MSN"])):
     if tx_data["MSN"][i] == "CLPRB":
@@ -184,8 +184,8 @@ for i in range(len(tx_data["MSN"])):
     elif tx_data["MSN"][i] == "REPRB":
         tx_reprb["Year"].append(tx_data["Year"][i])
         tx_reprb["Data"].append(tx_data["Data"][i])
-    # elif tx_data["MSN"][i] == "TEPRB":
-    #     tx_teprb["Year"].append(tx_data["Year"][i])
-    #     tx_teprb["Data"].append(tx_data["Data"][i])
+    elif tx_data["MSN"][i] == "TEPRB":
+        tx_teprb["Year"].append(tx_data["Year"][i])
+        tx_teprb["Data"].append(tx_data["Data"][i])
     else:
         pass
