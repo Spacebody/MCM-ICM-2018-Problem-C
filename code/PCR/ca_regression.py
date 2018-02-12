@@ -77,7 +77,7 @@ k = 1
 for i in feature_cols:
     plt.subplot(4, 4, k)
     plt.plot(ca_Year, coef_[i],  label=i)
-    plt.legend(loc='upper left')
+    plt.legend(loc='best')
 
     k += 1
 plt.savefig("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\ca.png")
