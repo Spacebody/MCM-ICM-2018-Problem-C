@@ -74,7 +74,6 @@ nm_Year = []
 for i in range(1962, 2008):
     nm_Year.append(i)
 fig = plt.figure(figsize=(20, 10))
-
 k = 1
 for i in feature_cols:
     plt.subplot(4, 4, k)
