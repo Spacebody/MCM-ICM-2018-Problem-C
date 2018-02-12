@@ -27,13 +27,27 @@ for i in variable1:
         variable.append(i)
 nm_data = OrderedDict()
 for i in range(0, len(variable)):
-    nm_data[variable[i]] = np.zeros(49)
-for i in range(0, 49):
+    nm_data[variable[i]] = np.zeros(50)
+for i in range(0, 50):
     for j in range(len(data)):
         if int(data["Year"][j])-1960 == i:
             if data["MSN"][j] in variable:
                 nm_data[data["MSN"][j]][i] = data["Data"][j]
+year = []
+for i in range(1960, 2010):
+    year.append(i)
+nm_data["Year"] = year
+for i in variable:
+    if i != "TEGDS" and i != "Year":
+        mean = np.mean(nm_data[i])
+        std = np.std(nm_data[i])
+        if std != 0:
+            for j in range(len(nm_data[i])):
+                nm_data[i][j] = (nm_data[i][j]-mean)/std
 nm_comp_data = OrderedDict()
 nm_comp_data = pd.DataFrame(nm_data)
 nm_comp_data.to_csv("nm_data_by_year.csv", index=False, index_label=False, sep=',')
+
+
+
 
