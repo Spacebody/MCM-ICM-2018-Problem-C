@@ -34,9 +34,9 @@ for i in range(0, 50):
             if data["MSN"][j] in variable:
                 nm_data[data["MSN"][j]][i] = data["Data"][j]
 year = []
-for i in range(1960, 2010):
-    year.append(i)
-nm_data["Year"] = year
+nm_comp_data = OrderedDict()
+nm_comp_data = pd.DataFrame(nm_data)
+nm_comp_data.to_csv("nm_data_by_year_original.csv", index=False, index_label=False, sep=',')
 for i in variable:
     if i != "TEGDS" and i != "Year":
         mean = np.mean(nm_data[i])
@@ -44,7 +44,7 @@ for i in variable:
         if std != 0:
             for j in range(len(nm_data[i])):
                 nm_data[i][j] = (nm_data[i][j]-mean)/std
-nm_comp_data = OrderedDict()
+
 nm_comp_data = pd.DataFrame(nm_data)
 nm_comp_data.to_csv("nm_data_by_year.csv", index=False, index_label=False, sep=',')
 
