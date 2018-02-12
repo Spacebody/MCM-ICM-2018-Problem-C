@@ -1,5 +1,4 @@
 MSN,Description,Unit
-TEGDS,Energy expenditures as share of current-dollar GDP.,Percent
 BMTCB,Biomass total consumption,Billion Btu
 CLPRB,Coal production.,Billion Btu
 CLTCB,Coal total consumption.,Billion Btu
@@ -70,4 +69,6 @@ WWCCB,Wood and waste consumed by the commercial sector.,Billion Btu
 WWTCB,Wood and waste total consumption.,Billion Btu
 WWTCV,Wood and waste total expenditures.,Million dollars
 WYTCB,Electricity produced from wind energy.,Billion Btu
-Year,Year,None
+NUETB,Electricity produced from nuclear power.,Billion Btu
+NUETV,Nuclear fuel total expenditures.,Million dollars
+TETCB,Total energy consumption.,Billion Btu

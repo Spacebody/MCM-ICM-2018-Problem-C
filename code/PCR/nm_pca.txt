@@ -1,0 +1,28 @@
+> data <- read.csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\nm_data_by_year.csv")
+> y =  cor(data)
+> e = eigen(y)
+> write.table(e[1],"C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\original_eigenvalue_nm.txt")
+> write.table(e[2],"C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\original_eigenvector_nm.txt")
+> pca1=prcomp(data)
+> summary(pca1)
+Importance of components%s:
+                          PC1    PC2     PC3     PC4    PC5     PC6    PC7     PC8     PC9    PC10    PC11    PC12
+Standard deviation     5.7585 2.7226 2.36592 1.87126 1.5383 1.20345 0.9965 0.91595 0.88769 0.86859 0.76712 0.71393
+Proportion of Variance 0.5508 0.1231 0.09298 0.05816 0.0393 0.02406 0.0165 0.01394 0.01309 0.01253 0.00977 0.00847
+Cumulative Proportion  0.5508 0.6739 0.76690 0.82507 0.8644 0.88843 0.9049 0.91886 0.93194 0.94448 0.95425 0.96272
+                          PC13    PC14    PC15    PC16    PC17    PC18    PC19    PC20    PC21    PC22    PC23    PC24
+Standard deviation     0.66869 0.65563 0.50408 0.43126 0.41612 0.37006 0.35373 0.32442 0.30533 0.27714 0.22032 0.21361
+Proportion of Variance 0.00743 0.00714 0.00422 0.00309 0.00288 0.00227 0.00208 0.00175 0.00155 0.00128 0.00081 0.00076
+Cumulative Proportion  0.97014 0.97728 0.98150 0.98459 0.98747 0.98974 0.99182 0.99357 0.99512 0.99640 0.99720 0.99796
+                          PC25    PC26    PC27    PC28    PC29    PC30    PC31    PC32    PC33    PC34    PC35    PC36
+Standard deviation     0.17555 0.14750 0.13132 0.11667 0.09753 0.08609 0.07446 0.06540 0.05625 0.05020 0.04413 0.04012
+Proportion of Variance 0.00051 0.00036 0.00029 0.00023 0.00016 0.00012 0.00009 0.00007 0.00005 0.00004 0.00003 0.00003
+Cumulative Proportion  0.99847 0.99883 0.99912 0.99935 0.99950 0.99963 0.99972 0.99979 0.99984 0.99988 0.99992 0.99994
+                          PC37    PC38    PC39    PC40   PC41    PC42    PC43     PC44     PC45     PC46     PC47
+Standard deviation     0.03381 0.02517 0.02388 0.01859 0.0151 0.01371 0.01124 0.009514 0.007536 0.004789 0.003627
+Proportion of Variance 0.00002 0.00001 0.00001 0.00001 0.0000 0.00000 0.00000 0.000000 0.000000 0.000000 0.000000
+Cumulative Proportion  0.99996 0.99997 0.99998 0.99999 1.0000 0.99999 1.00000 1.000000 1.000000 1.000000 1.000000
+                          PC48      PC49      PC50
+Standard deviation     0.00228 0.0009984 4.097e-16
+Proportion of Variance 0.00000 0.0000000 0.000e+00
+Cumulative Proportion  1.00000 1.0000000 1.000e+00

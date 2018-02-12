@@ -1,0 +1,7 @@
+data <- read.csv("C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\ca_data_by_year.csv")
+y =  cor(data)
+e = eigen(y)
+write.table(e[1],"C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\original_eigenvalue_ca.txt")
+write.table(e[2],"C:\\Users\\THINKPAD\\PycharmProjects\\MCM-ICM-2018-Problem-C\\code\\PCR\\original_eigenvector_ca.txt")
+pca1=prcomp(data)
+summary(pca1)
