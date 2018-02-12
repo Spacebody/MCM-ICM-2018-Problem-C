@@ -8,9 +8,27 @@
 
 \maketitle
 
+\begin{table}[htb]\renewcommand{\arraystretch}{1.4}
+	\centering
+	\caption{Notations}
+	\label{notations}
+	\begin{tabular}{c c l}
+		\hline
+		Notations           & Unit                & \multicolumn{1}{c}{Description}              \\ \hline
+		 $x_{ij}^{*}$  & \/ & The normalization data \\
+		 $\overline{x_{j}}$ &\/ & The mean of the column\\
+		 $\sigma_{j}$ &\/ &The standard deviation of the column\\ \hline
+	\end{tabular}
+\end{table}
 
 \section{A Multiple Regression Model Based On Principal Component Analysis(PCA) }
-The original data contains 605 variables,  there is no doubt that filtrating some important variables is the first step.  
-\subsection{Normalize The Data}
 
+
+The selection of regression variables has practical significance.  In order to make the model easy to do structural analysis,  control and forecast,  it is the best way to select the best variable from the subsets of the original variables.  The original data contains 605 variables,  there is no doubt that filtrating some important variables is the first step.  We choose principal component analysis to decrease the variable because it reduce the compution complexity.
+\subsection{Normalize The Data}
+The orginal data contains various different variables and the variables have different dimensions.  Before excute principal component analysis, the first step is to normalize the data.
+\begin{equation}
+    x_{ij}^{*} = \frac{x_{ij}-\overline{x_{j}}}{\sigma_{j}}  
+\end{equation}
+$x_{ij}^{*} $  is the normalization data.  $\overline{x_{j}}$  is the mean of the column and $\sigma_{j}$  is the standard deviation of the column.
 \end{document}
